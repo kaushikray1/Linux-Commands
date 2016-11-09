@@ -1,6 +1,19 @@
- 
+If using Kubuntu just use this in the file browser
 
-If using Kubuntu just use this in the file brouser 
 fish://<username>@<ip>/ 
 Example: 
 fish://pi@192.168.1.66/
+
+For SSH to remote terminal, type in the terminal 
+
+ssh <username>@<ip>
+Evample:
+ssh pi@192.168.1.66
+
+For telnet connection 
+
+telnet <ip> <port number>
+Example:
+telnet 192.168.1.62 23
+
+
