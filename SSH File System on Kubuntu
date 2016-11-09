@@ -1,0 +1,6 @@
+ 
+
+If using Kubuntu just use this in the file brouser 
+fish://<username>@<ip>/ 
+Example: 
+fish://pi@192.168.1.66/
