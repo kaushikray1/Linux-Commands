@@ -1,0 +1,26 @@
+
+    First create app.desktop file on Desktop (Name of the application)
+
+In the Terminal type (if you dont have Gedit type "sudo apt-get install gedit"
+ 
+    gedit ~/Desktop/arduino.desktoperminal 
+
+You can name that file what ever you want, because the launcher’s name has nothing to do with its file name.
+Copy and paste the following lines in to the files
+
+    [Desktop Entry]
+    Name=Arduino
+    Comment=Launcher for app
+    Exec=<path for the app>
+    Icon=<path for the app>/logo.png
+    Categories=Application;Development;IDE;
+    Version=1.0
+    Type=Application
+    Terminal=true
+
+Just change the YOUR_NAME to your username. Save and close the file.
+Now we have to make that file executable.
+    
+Open the terminal and execute the following command.
+
+    chmod +x ~/Desktop/arduino.desktop
