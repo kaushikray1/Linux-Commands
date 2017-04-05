@@ -3,6 +3,8 @@ type all the below commands at terminal
 sudo apt-get install avrdude
 sudo gedit /etc/udev/rules.d/60-objdev.rules
 
+(if you dont have gedit you can use "sudo nano /etc/udev/rules.d/60-objdev.rules" or install gedit "sudo apt-get install gedit")
+
 Add these lines to the file
 
 # USBasp - USB programmer for Atmel AVR controllers
